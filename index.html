@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Password Validation</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="style.css"> </head>
+
+<body>
+	<div class='form-box'>
+		<form>
+			<input type="email" placeholder="Email" name="email_" required>
+			<input id="password_validation" type="text" placeholder="Password" name="
+            password_" required>
+			<div class="password_required">
+				<ul>
+					<li class="lowercase"><span></span> One Lowercase Letter</li>
+					<li class="capital"><span></span> One Capital Letter</li>
+					<li class="number"><span></span> One Number</li>
+					<li class="special"><span></span> One Special Character</li>
+					<li class="eight_characters"><span></span> At Least 8 Characters</li>
+				</ul>
+			</div>
+			<input class="input_submit active" type="submit" value="Login"> </form>
+		<script src="script.js"></script>
+</body>
+
+</html>
